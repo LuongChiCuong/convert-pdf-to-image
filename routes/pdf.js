@@ -7,7 +7,7 @@ router.get(/(.*\.pdf)\/([0-9]+).png$/i, function(req, res, next) {
   console.log(req.params[0]);
   // var pdfPath = req.params[0];
   // params[0] is name of PDF file
-  // params[1] is the number of page
+  // params[1] is page number
   var pdfPath = './public/file/' + req.params[0];
   var pageNumber = req.params[1];
 
