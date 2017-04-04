@@ -6,8 +6,10 @@ Base on **pdf-image** <https://www.npmjs.com/package/pdf-image>.
 ## guide:
 
 Store your pdf in **public/file**.
+
 Open terminal then turn on the server.
 ```javascript
+npm install
 node app
 ```
 Using curl or PostMan to convert your PDF file.
